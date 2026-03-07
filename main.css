@@ -3,6 +3,14 @@
   --fg: #fff;
 }
 
+/* Light mode. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #eee;
+    --fg: #222;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -177,6 +185,21 @@ ul.list > li a {
 .pre-container pre {
   display: inline-block;
 }
+:root {
+  --hcb-bg: #111;
+  --hcb-fg: #ccc;
+  --hcb-border: #333; 
+}
+
+/* Light mode. */
+@media (prefers-color-scheme: light) {
+  :root {
+    --hcb-bg: #e8e8e8;
+    --hcb-fg: #111;
+    --hcb-border: #ccc; 
+  }
+}
+
 #HCB_comment_box {
    margin: 0;
    font-family: monospace!important;
@@ -248,7 +271,7 @@ a:has( > img.hcb-icon[alt=rss])::after {
 }
 
 #hcb_form_name, #hcb_form_content {
-   background: #111!important;
+   background: var(--hcb-bg)!important;
    font-family: monospace!important;
    font-size: 1em!important;
    border: none!important;
@@ -278,13 +301,12 @@ a:has( > img.hcb-icon[alt=rss])::after {
 #HCB_comment_box #HCB_comment_form_box {
   position: relative;
   left: 0;
-  border: 1px solid #8c0000;
   padding: 10px;
   z-index: 20;
   margin-bottom: 50px;
   right: 0;
-  border: 1px solid #333;
-  background: #111;
+  border: 1px solid var(--hcb-border);
+  background: var(--hcb-bg);
 }
 
 #HCB_comment_box #hcb_form {
@@ -298,22 +320,23 @@ a:has( > img.hcb-icon[alt=rss])::after {
 
 #hcb_form_name { /* This is for the border of the name input */
   border-radius: 0px !important;
-  border: 1px solid #333 !important;
+  border: 1px solid var(--hcb-border) !important;
   display: none !important;
 }
 
 #hcb_form_content { /* This is for the border of the content input */
   border-radius: 0px !important;
-  border: 1px solid #333 !important;
-  background: #000 !important;
-  color: #eee !important;
+  border: 1px solid var(--hcb-border) !important;
+  background: var(--hcb-bg) !important;
+  color: var(--hcb-fg) !important;
   resize: vertical !important;
 }
 
 #hcb_submit { /* This is for the border and font of the submit button */
   border-radius: 0px !important;
   font-family: 'Trebuchet MS', sans-serif !important;
-  border: 1px solid #333 !important;
+  border: 1px solid var(--hcb-border) !important;
+  color: var(--hcb-fg) !important;
 }
 
 #HCB_comment_form_box .btn-secondary { /* This is for the border and font of the "Attach Image" button */
@@ -328,7 +351,7 @@ a:has( > img.hcb-icon[alt=rss])::after {
 
 #hcb_form::before {
 	content: '⚠️ Aviso: todos os comentários passam por aprovação. Saiba mais abaixo.';
-	color: #ccc;
+	color: var(--hcb-fg);
 	font-weight: bold;
 }
 
@@ -351,12 +374,11 @@ html body div#HCB_comment_box div#comments_list div[id^="comment"].comment p.hcb
 
 #HCB_comment_box .comment { /* This is for the border of all posts/replies */
   padding: 5px 15px 15px 15px;
-  border: 1px solid #333;
-  background: #111;
+  border: 1px solid var(--hcb-border);
+  background: var(--hcb-bg);
 }
 
 #HCB_comment_box .comment img { /* This is for the border of all posts/replies images */
-  /*border: 1px solid #8c0000;*/
   max-width: 200px;
   height: auto;
 }
