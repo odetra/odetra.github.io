@@ -6,8 +6,8 @@
 /* Light mode. */
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #eee;
-    --fg: #222;
+    --bg: #fff;
+    --fg: #000;
   }
 }
 
@@ -185,6 +185,13 @@ ul.list > li a {
 .pre-container pre {
   display: inline-block;
 }
+
+/* Styles for smartphones. */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+}
 :root {
   --hcb-bg: #111;
   --hcb-fg: #ccc;
@@ -194,9 +201,9 @@ ul.list > li a {
 /* Light mode. */
 @media (prefers-color-scheme: light) {
   :root {
-    --hcb-bg: #e8e8e8;
-    --hcb-fg: #111;
-    --hcb-border: #ccc; 
+    --hcb-bg: #fff;
+    --hcb-fg: #000;
+    --hcb-border: #bbb; 
   }
 }
 
