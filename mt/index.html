@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="../f/favicon.png">
+  <title>Odeio Trabalho: μTag</title>
+</head>
+<body>
+  <header>
+    <h1><a href="?t=*&p=1">Arquivos do blog</a></h1>
+    <nav>
+      <a href="../index.html">🏠 Voltar</a> | 
+      <a href="./index.html">🤔 Sobre</a> | 
+      <a href="./index.html?t=*">📂 Arquivos</a> 
+    </nav>
+      <form action="?" method="get">
+        <input type="text" autocomplete="off" id="searchInput" name="t" placeholder="Insert tags and hit enter...">
+      </form>
+      <ul id="searchPreview"></ul>
+  </header>
+  <br>
+  <main>
+    <div id="content">
+      <div id="gallery"></div>
+      <div id="tags"></div>
+      <div id="metadata"></div>
+    </div>
+  </main>
+    <div id="pagination" style="text-align:center"></div>
+  <footer>
+    <br>
+    <a href="#" id="top-link">[Top]</a>
+    <br><br>
+    <span style="font-family:monospace">
+      Powered by <a href="https://github.com/odetra/microtag" target="_blank">μTag.</a> 
+    </span>
+    <br><br>
+  </footer>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
+

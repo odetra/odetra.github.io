@@ -125,17 +125,27 @@ article blockquote {
 }
 
 article figure {
+  margin: 15px;
   display: inline-block;
+  background: #111;
+  color: #ccc;
+  border: solid 1px #333;
+  padding: 0;
+  width: min-content;
+  max-width: min-content;
+}
+
+article figure figcaption {
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.1em;
+  margin: 5px;
+  color: #aaa;
 }
 
 center {
   display: block;
   text-align: center;
-}
-
-article figcaption {
-  text-align: center;
-  color: #999;
 }
 
 listdate {
@@ -190,6 +200,27 @@ ul.list > li a {
 @media only screen and (max-width: 600px) {
   body {
     padding: 20px;
+  }
+
+  article figure img {
+    max-width: 95vw;
+  }
+  
+  article figure {
+    display: block;
+    width: min-content;
+    max-width: min-content;
+    margin: 10px auto;
+    float: none!important;
+  }
+
+  article h1,
+  article h2,
+  article h3,
+  article h4,
+  article h5 {
+    text-align: center;
+    margin-bottom: 5px;
   }
 }
 :root {

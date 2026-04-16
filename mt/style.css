@@ -1,0 +1,186 @@
+:root {
+  --bg: #000;
+  --fg: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+a {
+  color: #66f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #aaf;
+}
+
+h1 {
+  margin: 3px;
+  display: inline-block;
+}
+
+h1 a {
+  text-decoration: none;
+  color: var(--fg);
+}
+
+nav {
+  margin: 3px;
+  display: inline-block;
+}
+
+#searchInput {
+  width: 100%;
+  border: none;
+  font-size: 1em; 
+}
+
+/* Remove stupid focus outlone from input. */
+#searchInput:focus {
+  outline: none;
+}
+
+/* Tags and content. */
+div#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* Center the footer. */
+footer {
+  text-align: center;
+}
+
+#gallery {
+  overflow-wrap: break-word;
+}
+
+/* Make content aways fit in the screen. */
+#gallery video source, #gallery video, #gallery img {
+  max-width: 95vw;
+  max-height: 95vh;
+}
+
+#pagination a {
+  margin: 5px;
+}
+
+#tags {
+  margin: 10px;
+}
+
+#tags a, #gallery a {
+  margin: 5px;
+}
+
+/* Styles for fit options. */
+#fit-opts {
+  font-family: monospace;
+  font-size: 0.95em;
+  color: #aaa;
+  margin: 5px;
+}
+
+#fit-opts span {
+  color: #66f;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#fit-opts span:hover {
+  color: #aaf;
+}
+
+/* Search preview container. */
+ul#searchPreview {
+  list-style: none;
+  display: block;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1em; 
+}
+
+/* Styling for thumbs. */
+#gallery .thumb {
+  max-width: min(40vw, 300px); 
+  max-height: 300px; 
+}
+
+.thumb-box {
+  display: inline-block;
+  background: #111;
+  color: #ccc;
+  border: solid 1px #333;
+  padding: 0;
+  margin: 5px;
+}
+
+.thumb-box span {
+  font-family: monospace;
+  font-size: 0.95em;
+  margin: 5px;
+  color: #aaa;
+}
+
+/* Those are for the optional post section. */
+#post {
+  margin-left: auto;
+  margin-right: auto;
+  background: #111;
+  color: #ccc;
+  border: solid 1px #333;
+  max-width: 90vw;
+  padding: 5px;
+}
+
+#post #post-header {
+  text-align: left;
+}
+
+#post #post-header > h1 {
+  font-size: 1.2em;
+}
+
+#post #post-body {
+  text-align: left;
+}
+
+/* Small metadata section. */
+#metadata {
+  font-family: monospace;
+  font-size: 0.95em;
+  margin: 5px;
+  color: #aaa;
+}
+
+/* [Top] */
+#top-link {
+  font-family: monospace;
+  font-size: 0.95em;
+  margin: 5px;
+
+}
+
+/* Make webm and mp4 show in blue. */
+.thumb-box .ext-webm-text, .thumb-box .ext-webm-text {
+  color: #77d;
+}
+
+/* Make gifs show in yellow. */
+/* Though gifs are not encoraged. */
+.thumb-box .ext-gif-text {
+  color: #dd7;
+}
