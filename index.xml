@@ -4,7 +4,7 @@
 <title>Odeio Trabalho</title>
 <link>https://odetra.github.io</link>
 <description></description>
-<lastBuildDate>Thu, 16 Apr 2026 07:13:09 -0300</lastBuildDate>
+<lastBuildDate>Sun, 19 Apr 2026 16:49:43 -0300</lastBuildDate>
 
 <item>
  <title>
@@ -1121,203 +1121,52 @@ menores. Mas no Bostil deve ser mais difícil de achar.</p>
   https://odetra.github.io/p/post/10/index.html
  </link>
  <pubDate>
-  Wed, 15 Apr 2026 22:18:18 -0300
+  Thu, 16 Apr 2026 07:00:25 -0300
  </pubDate>
 </item>
 <item>
  <title>
-  Thinkpad T420: primeiras impressões
+  Cultura
  </title>
  <description>
-  <p>Este post não tem nada de especial. Eu só quero deixar claro que meu
-laptop é superior.</p>
-<h2 id="ótima-compra">Ótima compra</h2>
-<p><s>Como falei no último fechamento</s>, comprei baratinho na internet
-para ver se Thinkpads eram tão bons assim como dizem. Só paguei 990
-reais neste computador do qual escrevo. Ele tem um processador i5-2520M
-e veio com SSD e 10GB de RAM. Não são as specs mais modernas, mas para o
-preço está ótimo. Um laptop novo com apenas i3 e 4gb RAM hoje custa uns
-dois mil reais. Faz o L.</p>
-<p>Restava saber o estado, visto que é um computador usado que acho que
-foi fabricado em 2011. Eu confiava que o modelo era bom, devido a todo o
-hype dos Thinkpads velhos, etc. Mas temia que poderia chegar todo fodido
-e quebrado.</p>
-<p>Não veio fodido. Veio em excelente estado. Não perfeito, claro que
-não. Mas muito melhor do que eu esperava. Por fora tem uns arranhões.
-Poucos. E uma letra do LENOVO caiu. Mas por dentro me surpreendeu, veio
-quase novo. Até cheiro de novo tinha. Só algumas coisas vieram com
-problema:</p>
-<ul>
-<li>Veio sem o trackpoint.</li>
-<li>Bateria está viciada.</li>
-<li>Veio sem o trilho do HDD/SSD.</li>
-<li>A trava da tela não funciona.</li>
-</ul>
-<p>Não ter trackpoint não afeta tanto, a maioria dos laptops não têm,
-mas comprei um porque queria ver como era. A bateria eu já fui avisado
-de antes e não me importo. Uso sempre na tomada. Não sei como encaixaram
-o SSD sem o trilho, mas comprei um para colocar da maneira correta.
-Novamente, a trava não afeta tanto, a maioria dos laptops não têm. Eu
-não vou tentar consertar isso.</p>
-<h2 id="correções-e-upgrades-que-fiz">Correções e upgrades que fiz</h2>
-<p>A primeira coisa que fiz foi aumentar a RAM. Aumentei pra 12GB (8+4).
-Custo zero, usei o que já tinha.</p>
-<figure style="float:right">
-<a href='../../../mt/index.html?f=074db0d84671409cd1ecb064d9967656.webp#auto-focus'>
-<img src='../../../f/074db0d84671409cd1ecb064d9967656.webp' width='250px'></img>
-</a>
-<figcaption>
-HD Bay.
-</figcaption>
-</figure>
-<p>A segunda coisa foi comprar um adaptador de HDD Bay ou seja lá qual
-for o nome disso. O T420 vem com um drive de CD, mas dá pra trocar por
-um adaptador desses e colocar um HDD, que foi o que fiz. Me custou 20
-reais com o frete.</p>
-<p>Eu tenho um SSD e um HDD nessa máquina, mas daria pra ter ainda mais.
-O T420 vem com um slot onde se pode adicionar um módulo para rede
-celular ou um SSD mSata. O meu veio com o módulo para rede celular. Dá
-pra adicionar um Chip SIM e usar a internet da operadora de celular com
-esse laptop, mas eu nunca vou usar isso e preferia o mSata.</p>
-<p>Enfim, tudo isso pra dizer que dá pra ter um SSD mSata nesse slot, um
-SSD/HDD no slot padrão e um SSD/HDD extra no HD Bay. Três drives em um
-laptop. Aqui está um
-<a href="https://www.youtube.com/watch?v=HjxJXqY1jrM" target="_blank">exemplo</a>
-de um cara fazendo isso. É storage que não acaba mais. Talvez eu compre
-um SSD mSata no futuro, mas por agora não preciso.</p>
-<p>Outra coisa que fiz foi comprar o trackpoint. Não é muito fácil achar
-e poucos vendem isso, então eles metem a faca mesmo. Me custou 20 reais.
-Mas valeu a pena. Não tinha outra opção.</p>
-<p>Comprei também o trilho do slot do HDD/SSD que veio sem. Está
-funcionando perfeitamente sem esse trilho, o vendedor colocou o SSD no
-slot sem ele de alguma forma, mas preferi comprar apenas para desencargo
-de consciência. Ainda nem coloquei. Me custou também uns 20 reais.</p>
-<p>E Acabaram os custos. Laptop foi R$990, correções e upgrades - que
-nem eram tão necessários assim - foram uns R$60. Total de R$1’050 por
-este tanque de guerra pré-histórico.</p>
-<h2 id="specs-e-possibilidades">Specs e possibilidades</h2>
-<p>Esse modelo tem algumas coisas que laptops modernos não têm mais, e
-algumas coisas que nem os antigos tinham.</p>
-<h3 id="trackpoint">Trackpoint</h3>
-<figure style="float:right">
-<a href='../../../mt/index.html?f=1173d1a454bf27fc5b5a9f4449002193.webp#auto-focus'>
-<img src='../../../f/1173d1a454bf27fc5b5a9f4449002193.webp' width='250px'></img>
-</a>
-<figcaption>
-O tal trackpoint, pra quem desconhece.
-</figcaption>
-</figure>
-<p>Todo laptop deveria ter isso. É meio difícil de se acostumar no
-primeiro dia, mas depois se torna muito mais prático do que o
-trackpad.</p>
-<p>Talvez seja minha falta de costume, mas ainda acho menos preciso. Não
-é grande coisa e a praticidade supera isso. Desativei o trackpad e só
-uso o trackpoint hoje. Faz, creio, umas duas semanas que instalei o
-trackpoint e já estou 90% acostumado.</p>
-<h3 id="leitor-de-digital">Leitor de digital</h3>
-<p>Honestamente eu considero isso uma viadagem, mas tem. Eu só usei uma
-vez para testar e funciona muito bem, mas não usei mais.</p>
-<h3 id="trava-da-tampa">Trava da tampa</h3>
-<p>Infelizmente o meu veio quebrado e não irei consertar, mas nesse
-modelo a tampa trava quando fecha e você tem que empurrar uma travinha
-para abrir. Não sei se é útil, mas é certamente interessante.</p>
-<h3 id="tampa-abre-em-180">Tampa abre em 180°</h3>
-<p>Eu não sei o quão comum é isso, acho até que todos os laptops
-modernos devem ter esta função, mas o meu antigo não tinha e acho muito
-legal.</p>
-<h3 id="killswitch-de-rádio">Killswitch de rádio</h3>
-<p>Esse é muito legal. Tem uma trava na lateral que desliga todo o rádio
-do computador: WiFi, Bluetooth e rede celular. O laptop fica air gapped.
-Eu sempre uso essa função antes de bootar no TailsOS para assinar alguma
-transação de Bitcoin.</p>
-<h3 id="thinklight">Thinklight</h3>
-<p>Uma das coisas que mais gosto. O laptop tem uma luz de teclado que
-fica perto da webcam e, quando ligada, ilumina lindamente todo o teclado
-e o ambiente. É como um flash de celular. Muito melhor do que teclado
-RGB de LED gaymer.</p>
-<h3 id="design-e-durabilidade">Design e durabilidade</h3>
-<p>Algumas pessoas falam que os Thinkpads são feios, mas robustos. Eu
-discordo, acho a aparência deles muito elegante, eles têm classe. Feios
-são aquelas merdas slim sem alma.</p>
-<p>Sobre durabilidade e resistência, ele realmente parece resistente. Li
-relatos de pessoas dizendo que derrubaram no chão com força e não
-quebrou. Mas laptop não foi feito pra cair e acho que as chances de
-quebrar são bem maiores.</p>
-<figure style="float:right">
-<a href='../../../mt/index.html?f=11a4989fcdae1c98913fb997307eb401.webp#auto-focus'>
-<img src='../../../f/11a4989fcdae1c98913fb997307eb401.webp'></img> </a>
-<figcaption>
-Teoricamente você pode
-<a href="https://www.youtube.com/watch?v=d7cvi00OZDM" target="_blank">derrubar
-água no teclado</a> e não dá nada.
-</figcaption>
-</figure>
-<h3 id="porta-de-cartão-sd">Porta de cartão SD</h3>
-<p>Esse não é algo tão especial, meu laptop antigo tinha, mas os
-modernos não costumam ter e considero essencial. Também muito útil por
-ser algo que não ocupa espaço. Dá pra deixar um cartão SD lá e
-esquecer.</p>
-<h3 id="porta-usb-sempre-ligada">Porta USB sempre ligada</h3>
-<p>Eu nem sabia que isso existia, mas tem uma porta USB amarela que
-fornece energia mesmo com o computador desligado. Você pode usar seu
-computador como um power bank sem ter que ligar. Mas a minha não
-funciona, acredito que o motivo seja a bateria viciada.</p>
-<h3 id="docking-station">Docking Station</h3>
-<p>Na parte de baixo do laptop tem um conector para encaixar em uma
-<a href="https://www.youtube.com/watch?v=P6xrNzq613Y" target="_blank">docking
-station</a>. A ideia do dock é o seguinte: você carrega seu laptop na
-mochila para todo lugar, e, quando chegar em casa, conecta no dock. O
-dock pode ter HDDs extras (eu acho), tem várias portas extras e
-geralmente estão conectados à monitores, teclados e outros
-periféricos.</p>
-<h3 id="demais-portas">Demais portas</h3>
-<p>Laptops modernos são caros pra caralho, oferecem pouco, tem aquele
-design slim de merda e quase não têm portas, só USB e aquela porta gay
-da Apple. O T420, como todo laptop antigo, tem várias portas: HDMI, VGA,
-Ethernet, duas USB 2.0, um USB eSata, um USB sempre ligado, entrada de
-cartão SIM, entrada de cartão SD e Express Card.</p>
-<h3 id="express-card">Express Card</h3>
-<figure style="float:right">
-<a href='../../../mt/index.html?f=cc8b87bf6b853875edb83a6bfef7b9b5.webp#auto-focus'>
-<img src='../../../f/cc8b87bf6b853875edb83a6bfef7b9b5.webp' width='250px'></img>
-</a>
-<figcaption>
-Conexão com uma eGPU pelo Express Card.
-</figcaption>
-</figure>
-<p>Eu nem sabia que isso existia, mas tem um slot vazio para Express
-Card. A ideia é que você compre um Express Card e coloque lá.</p>
-<p>Esses tais Express Cards são extensões customizadas. Por exemplo,
-você pode comprar um Express Card com duas entradas USB e agora seu
-laptop tem duas entradas USB a mais.</p>
-<p>O interessante é que dá pra comprar um
-<a href="https://www.youtube.com/watch?v=938Ra86FiY8" target="_blank">Express
-Card que faz a conexão com uma GPU externa</a>, algo que daria muito
-mais poder ao computador. Acredito que seria viável usar para rodar IA
-localmente, joguinhos ou trabalhar com coisas gráficas mais pesadas. Mas
-não acho que seja uma diferença tão absurda. E também não sei direito
-como funciona e nem se valeria a pena.</p>
-<h3 id="upgrades-futuros">Upgrades futuros?</h3>
-<p>Talvez eu compre um SSD mSata no futuro. Talvez eu arrume um Express
-Card e uma GPU externa pra testar isso aí. Mas é bem talvez mesmo. Eu
-não preciso dessas coisas. Do jeito que está já está bom. Seria só por
-curiosidade.</p>
-<p>Não é upgrade, é manutenção, mas acho que preciso trocar a pasta
-térmica. Esse processador esquenta demais. Vi que algumas pessoas trocam
-o heat sink do T420 por um melhor, mas ainda não pesquisei sobre e nem
-sei qual seria o preço. Por enquanto não vou fazer nada.</p>
-<h2 id="recomendo">Recomendo?</h2>
-<p>Completamente. O laptop é muito bom e foi muito barato. O problema é
-que você não sabe o estado quando compra usado. Eu pedi para me mandarem
-um vídeo antes, arrisquei e deu certo. Eu fiquei tão satisfeito com a
-máquina que agora estou pensando em comprar algum da série X, que são
-menores. Mas no Bostil deve ser mais difícil de achar.</p>
+  <p>A cultura não é apenas a culinária ou o que restou das tradições de
+uma sociedade. Na cultura está contido todo um conjunto de crenças e
+valores, toda uma moralidade. Não apenas isso, mas toda uma visão de
+mundo e uma maneira de viver. É algo amplo e algo no qual estamos
+imersos o tempo inteiro, sempre afetados diretamente por ela.</p>
+<p>Ela também não é algo que só possa ser atribuído a sociedades. Não,
+famílias têm suas culturas, ambientes de trabalho têm suas culturas,
+grupinhos têm suas culturas, qualquer aglomerado de pessoas têm um
+conjunto de crenças, valores, visões, ou pelo menos interesses – ou até
+mesmo objetivos, ou <i>um objetivo</i> – compartilhados. E por que parar
+no <i>aglomerado</i>? Todo mundo tem sua <i>cultura pessoal</i>: sua
+própria visão de mundo, suas próprias crenças e interesses, o que você
+vê como bom, superior, o que você enxerga como abominável,
+desprezível.</p>
+<p><i>Cultura vigente</i>: a moralidade ou cosmovisão, aquilo no qual –
+quase – todo mundo concorda e acredita. A cultura eleva algumas coisas
+como sagradas. Também repugna outras coisas como profanas. A cultura, ou
+consenso, define o bom e o ruim – talvez até o mau.</p>
+<p>Ela é a experiência de viver. Cultura é <i>como</i> a vida se
+apresenta para você. E isso tem ligação direta com <i>a falha</i>. Por
+quê? Porque a cultura é aparência da vida. A aparência de uma mulher
+conta muito quando você pondera se vai chegar perto dela ou não. Assim é
+a vida, o mundo. Uma cultura bela o faz querer <i>participar</i> do
+mundo, uma cultura repugnante o faz querer retrair-se, afastar-se do
+mundo. A música boa o atrai, o faz querer ficar mais tempo, a música
+ruim te faz levantar e ir embora do ambiente. Em outras palavras, se
+você odeia profundamente a cultura na qual está inserido, você não vive
+a vida ou a vive a contragosto. Ah! E ainda corre o risco de acreditar
+que o que odeia é <i>a vida</i>.</p>
+<p>Eis a infelicidade de estar no centro do conflito entre a <i>cultura
+vigente</i> e a <i>cultura pessoal</i>! A solidão, o tédio e o
+isolamento! Mas isso é assunto pra outra hora.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/10/index.html
+  https://odetra.github.io/p/post/11/index.html
  </link>
  <pubDate>
-  Thu, 16 Apr 2026 07:00:25 -0300
+  Thu, 16 Apr 2026 20:46:10 -0300
  </pubDate>
 </item>
 </channel>
