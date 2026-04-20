@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cultura</title>
+<title>Microtag</title>
 <link rel="stylesheet" href="../../../main.css"> 
 <link rel="icon" type="image/x-icon" href="../../../f/favicon.png">
 </head>
@@ -11,7 +11,7 @@
   <main>
     <header>
       <span>
-        Cultura
+        Microtag
       </span>
       <nav>
         
@@ -23,43 +23,81 @@
    </div>
    <br><br>
    
-   <p>A cultura não é apenas a culinária ou o que restou das tradições de
-uma sociedade. Na cultura está contido todo um conjunto de crenças e
-valores, toda uma moralidade. Não apenas isso, mas toda uma visão de
-mundo e uma maneira de viver. É algo amplo e algo no qual estamos
-imersos o tempo inteiro, sempre afetados diretamente por ela.</p>
-<p>Ela também não é algo que só possa ser atribuído a sociedades. Não,
-famílias têm suas culturas, ambientes de trabalho têm suas culturas,
-grupinhos têm suas culturas, qualquer aglomerado de pessoas têm um
-conjunto de crenças, valores, visões, ou pelo menos interesses – ou até
-mesmo objetivos, ou <i>um objetivo</i> – compartilhados. E por que parar
-no <i>aglomerado</i>? Todo mundo tem sua <i>cultura pessoal</i>: sua
-própria visão de mundo, suas próprias crenças e interesses, o que você
-vê como bom, superior, o que você enxerga como abominável,
-desprezível.</p>
-<p><i>Cultura vigente</i>: a moralidade ou cosmovisão, aquilo no qual –
-quase – todo mundo concorda e acredita. A cultura eleva algumas coisas
-como sagradas. Também repugna outras coisas como profanas. A cultura, ou
-consenso, define o bom e o ruim – talvez até o mau.</p>
-<p>Ela é a experiência de viver. Cultura é <i>como</i> a vida se
-apresenta para você. E isso tem ligação direta com <i>a falha</i>. Por
-quê? Porque a cultura é aparência da vida. A aparência de uma mulher
-conta muito quando você pondera se vai chegar perto dela ou não. Assim é
-a vida, o mundo. Uma cultura bela o faz querer <i>participar</i> do
-mundo, uma cultura repugnante o faz querer retrair-se, afastar-se do
-mundo. A música boa o atrai, o faz querer ficar mais tempo, a música
-ruim te faz levantar e ir embora do ambiente. Em outras palavras, se
-você odeia profundamente a cultura na qual está inserido, você não vive
-a vida ou a vive a contragosto. Ah! E ainda corre o risco de acreditar
-que o que odeia é <i>a vida</i>.</p>
-<p>Eis a infelicidade de estar no centro do conflito entre a <i>cultura
-vigente</i> e a <i>cultura pessoal</i>! A solidão, o tédio e o
-isolamento! Mas isso é assunto pra outra hora.</p>
+   <p>Algumas das coisas que eu uso como escapismo da minha vida de merda
+são a programação e as computarias como hobby. Eu gosto especialmente de
+criar coisas com shell script. Quando eu estou com tédio ou com vontade
+de procrastinar, abro o <i>vim</i> e começo a escrever algum script para
+resolver algum problema que eu tenho, ou simplesmente porque deu vontade
+de tentar criar alguma coisa específica.</p>
+<p>Desta vez eu inventei de tentar fazer um script para gerar galerias
+estáticas. Ele gera um site no estilo booru, mas read-only. Sem opções
+para subir arquivos e nem nada que requeira um back-end, pois o objetivo
+é criar um site estático que possa ser subido no neocities, github, etc.
+Algo simples, mas que funcione.</p>
+<p>Para ver um exemplo, <a href="../../../mt/index.html">clique
+aqui</a>. Eu estou usando neste blog uma versão levemente modificada do
+microtag para organizar todos os aquivos que subo no site.</p>
+<h2 id="funcionamento">Funcionamento</h2>
+<p>Não tem muitas opções. Tudo que o script faz é importar para a
+galeria todos os arquivos no diretório IMPORT_DIR, que por padrão é
+/tmp/microtag-import. Quando se usa a opção --import, ele vai nesse
+diretório e busca por arquivos *.tags. Esse é um arquivo de texto com
+tags separadas por espaços. Existindo, ele busca pelo arquivo que o
+*.tags faz referência, que deve ter o mesmo nome, mas sem o .tags no
+final.</p>
+<pre><code>$ ls /tmp/microtag-import/
+078a49f7fdd99a6bf38542a3a05ec883.webp
+078a49f7fdd99a6bf38542a3a05ec883.webp.tags</code></pre>
+<p>Ou seja, o script já espera que você tenha colocado lá no diretório
+um arquivo a ser importado e um arquivo *.tags de mesmo nome com as
+tags. Como você vai fazer isso? Não sei. Ou manualmente, ou com algum
+script. Eu uso um script.</p>
+<pre><code>$ ./microtag --import
+[Looking for new files...]
+[078a49f7fd...ec883.webp / 1.8M]
+  |  Converting to webp and copying...
+  |  Took 3s.
+  |  Creating thumb...
+  |  Took 0s.
+  |  1.8M → 536K/webp
+$ ./microtag --build
+[Building]
+  |  Templates copied.
+  |  Took 0s.
+  |  JS database and tags uploaded.
+  |  Took 0s.</code></pre>
+<p>A opção --import importa os arquivos para dentro do site e atualiza
+um banco de dados sqlite com os metadados deles. Suporta imagens, gifs e
+vídeos. Imagens e gifs são convertidos para webp por ser um formato
+muito mais eficiente. Vídeos são só copiados. A opção --build atualiza
+os arquivos dos sites com os arquivos do diretório ./templates e
+atualiza também o banco de dados JSON do site final.</p>
+<h2 id="outras-coisas">Outras coisas</h2>
+<p>Ele tem a opção --select-by-tag que retorna a lista de md5s de todos
+os arquivos com aquela tag. A lista pode ser pipada nas opções --delete
+ou --update para mass delete ou mass changes.</p>
+<pre><code>$ ./microtag --select-by-tag webp
+c3fe5f6b260922245f9e65495692b6e1
+$ ./microtag --select-by-tag webp | ./microtag --delete
+[Deleting]
+  |  Deleted: c3fe5f6b260922245f9e65495692b6e1
+  |  576K → 36K
+  |  Took 0s.
+</code></pre>
+<p>Tem paginação e suporta pesquisar multiplas tags e também pesquisa
+por exclusão usando o sinal - antes da tag.</p>
+<pre><code>Pesquisa: foo -bar
+# Todos os arquivos possuindo tag foo, exceto aqueles possuindo tag bar.</code></pre>
+<p>Nada demais, faz jus ao nome <i>micro</i> e é bastante simples.
+Apenas algo que quis compartilhar porque gostei do resultado. Funciona
+bem. <s>Pelo menos na minha máquina</s>.</p>
+<p>O repositório dele fica
+<a href="https://github.com/odetra/microtag">aqui</a>.</p>
    <br>
    <address>
-      📅 Quinta, 16 de abril de 2026 às 20:46 por Odetra.<hr>
+      📅 Domingo, 19 de abril de 2026 às 19:31 por Odetra.<hr>
    </address>
-   <div id='prev-next'><span>⏪ <a href='../../../p/post/10/index.html' title='Post que escrevi há um ano (Maio/2025) no blog antigo e estou repostando aqui porque sim.'>Thinkpad T420: primeiras impressões</a></span> <span></span></div>
+   <div id='prev-next'><span>⏪ <a href='../../../p/post/11/index.html' title='Reflexão sobre a cultura. '>Cultura</a></span> <span></span></div>
    <br>
 
 <!-- 

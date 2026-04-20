@@ -110,12 +110,13 @@ article p {
 }
 
 article code {
-  background: #222;
-  border-left: 4px solid #ccc;
-  color: #ccc;
+  background: #131313;
+  border-left: 1px solid #ddd;
+  color: #fff;
   display: block;
   overflow-x: auto;
-  padding: 5px;
+  padding: 10px;
+  font-size: 1.2em;
 }
 
 article blockquote {
