@@ -1,5 +1,5 @@
 :root {
-  --bg: #000;
+  --bg: #111;
   --fg: #fff;
 }
 
@@ -117,7 +117,7 @@ article p {
 }
 
 article code {
-  background: #131313;
+  background: #000;
   border-left: 1px solid #ddd;
   color: #fff;
   display: block;
@@ -167,6 +167,7 @@ listdate {
 ul.list {
   display: flex;
   flex-direction: column;
+  max-width: 90vw;
 }
 
 ul.list.reverse {
@@ -175,6 +176,9 @@ ul.list.reverse {
 
 ul.list > li {
   list-style-type: none;
+  white-space: nowrap;      
+  overflow: hidden;        
+  text-overflow: ellipsis;    
 }
 
 ul.list > li a {
@@ -236,7 +240,7 @@ ul.list > li a {
   }
 }
 :root {
-  --hcb-bg: #111;
+  --hcb-bg: #222;
   --hcb-fg: #ccc;
   --hcb-border: #333; 
 }

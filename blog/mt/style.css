@@ -1,5 +1,5 @@
 :root {
-  --bg: #000;
+  --bg: #111;
   --fg: #fff;
 }
 
@@ -10,7 +10,7 @@
 body {
   background: var(--bg);
   color: var(--fg);
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: serif, 'Trebuchet MS', sans-serif;
 }
 
 a {
