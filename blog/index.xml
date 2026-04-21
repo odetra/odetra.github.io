@@ -2,9 +2,9 @@
 <rss version="2.0">
 <channel>
 <title>Odeio Trabalho</title>
-<link>https://odetra.github.io</link>
+<link>https://odetra.github.io/blog</link>
 <description></description>
-<lastBuildDate>Mon, 20 Apr 2026 21:47:45 -0300</lastBuildDate>
+<lastBuildDate>Mon, 20 Apr 2026 22:03:19 -0300</lastBuildDate>
 
 <item>
  <title>
@@ -80,7 +80,7 @@ quiser e do jeito que eu quiser. Por enquanto estou escrevendo sobre o
 quanto eu odeio trabalhar.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/1/index.html
+  https://odetra.github.io/blog/p/post/1/index.html
  </link>
  <pubDate>
   Thu, 18 Dec 2025 22:10:20 -0300
@@ -252,7 +252,7 @@ Finalmente em casa. Finalmente no lugar fodido que um fodido como eu
 pertence. Lar, doce lar.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/2/index.html
+  https://odetra.github.io/blog/p/post/2/index.html
  </link>
  <pubDate>
   Sun, 21 Dec 2025 17:10:00 -0300
@@ -320,7 +320,7 @@ Vamos apenas aceitar como a vida é. Aceitar e saber admirar o bom da
 vida. Não sejamos ressentidos.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/3/index.html
+  https://odetra.github.io/blog/p/post/3/index.html
  </link>
  <pubDate>
   Sun, 25 Jan 2026 21:15:22 -0300
@@ -372,7 +372,7 @@ acelerando mais, frenando forte. Mas não recomendo. Eu tenho medo de
 cair ou até morrer.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/4/index.html
+  https://odetra.github.io/blog/p/post/4/index.html
  </link>
  <pubDate>
   Mon, 26 Jan 2026 22:40:53 -0300
@@ -474,7 +474,7 @@ agora. Na verdade, estou me policiando para escrever menos. Porque
 quando começo eu não paro e sempre vira um texto gigante!</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/5/index.html
+  https://odetra.github.io/blog/p/post/5/index.html
  </link>
  <pubDate>
   Sun, 01 Feb 2026 08:11:05 -0300
@@ -538,7 +538,7 @@ que eu deveria estar estudando neste momento.</p>
 não cumpri: arrumar meus dentes! Vou deixar para os próximos meses.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/6/index.html
+  https://odetra.github.io/blog/p/post/6/index.html
  </link>
  <pubDate>
   Sun, 15 Mar 2026 15:51:39 -0300
@@ -695,7 +695,7 @@ acha que equipamento de segurança é frescura. E eis o que recebi. Essa
 eu mereci pela minha covardia.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/7/index.html
+  https://odetra.github.io/blog/p/post/7/index.html
  </link>
  <pubDate>
   Thu, 19 Mar 2026 11:52:30 -0300
@@ -848,7 +848,7 @@ desconhecido, mas no fim estou mesmo preso em um deserto. E a minha
 miragem já se foi. Ah, a batalha mágica entre a feiticeira e o mago.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/8/index.html
+  https://odetra.github.io/blog/p/post/8/index.html
  </link>
  <pubDate>
   Sun, 29 Mar 2026 11:23:46 -0300
@@ -922,7 +922,7 @@ de cabeça, exaustão e cansaço, um acidente de moto, um abcesso no dente
 e um coração partido.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/9/index.html
+  https://odetra.github.io/blog/p/post/9/index.html
  </link>
  <pubDate>
   Fri, 03 Apr 2026 08:21:15 -0300
@@ -961,8 +961,8 @@ problema:</p>
 mas comprei um porque queria ver como era. A bateria eu já fui avisado
 de antes e não me importo. Uso sempre na tomada. Não sei como encaixaram
 o SSD sem o trilho, mas comprei um para colocar da maneira correta.
-Novamente, a trava não afeta tanto, a maioria dos laptops não têm. Eu
-não vou tentar consertar isso.</p>
+Novamente, a trava não afeta tanto, a maioria dos laptops não têm. <s>Eu
+não vou tentar consertar isso</s> – tentei e consertei.</p>
 <h2 id="correções-e-upgrades-que-fiz">Correções e upgrades que fiz</h2>
 <p>A primeira coisa que fiz foi aumentar a RAM. Aumentei pra 12GB (8+4).
 Custo zero, usei o que já tinha.</p>
@@ -971,7 +971,7 @@ Custo zero, usei o que já tinha.</p>
 <img src='../../../f/074db0d84671409cd1ecb064d9967656.webp' width='250px'></img>
 </a>
 <figcaption>
-HD Bay.
+HDD Bay.
 </figcaption>
 </figure>
 <p>A segunda coisa foi comprar um adaptador de HDD Bay ou seja lá qual
@@ -984,7 +984,7 @@ celular ou um SSD mSata. O meu veio com o módulo para rede celular. Dá
 pra adicionar um Chip SIM e usar a internet da operadora de celular com
 esse laptop, mas eu nunca vou usar isso e preferia o mSata.</p>
 <p>Enfim, tudo isso pra dizer que dá pra ter um SSD mSata nesse slot, um
-SSD/HDD no slot padrão e um SSD/HDD extra no HD Bay. Três drives em um
+SSD/HDD no slot padrão e um SSD/HDD extra no HDD Bay. Três drives em um
 laptop. Aqui está um
 <a href="https://www.youtube.com/watch?v=HjxJXqY1jrM" target="_blank">exemplo</a>
 de um cara fazendo isso. É storage que não acaba mais. Talvez eu compre
@@ -1022,9 +1022,10 @@ trackpoint e já estou 90% acostumado.</p>
 <p>Honestamente eu considero isso uma viadagem, mas tem. Eu só usei uma
 vez para testar e funciona muito bem, mas não usei mais.</p>
 <h3 id="trava-da-tampa">Trava da tampa</h3>
-<p>Infelizmente o meu veio quebrado e não irei consertar, mas nesse
-modelo a tampa trava quando fecha e você tem que empurrar uma travinha
-para abrir. Não sei se é útil, mas é certamente interessante.</p>
+<p>Infelizmente o meu veio quebrado <s>e não irei consertar</s>, mas
+nesse modelo a tampa trava quando fecha e você tem que empurrar uma
+travinha para abrir. Não sei se é útil, mas é certamente
+interessante.</p>
 <h3 id="tampa-abre-em-180">Tampa abre em 180°</h3>
 <p>Eu não sei o quão comum é isso, acho até que todos os laptops
 modernos devem ter esta função, mas o meu antigo não tinha e acho muito
@@ -1118,7 +1119,7 @@ máquina que agora estou pensando em comprar algum da série X, que são
 menores. Mas no Bostil deve ser mais difícil de achar.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/10/index.html
+  https://odetra.github.io/blog/p/post/10/index.html
  </link>
  <pubDate>
   Thu, 16 Apr 2026 07:00:25 -0300
@@ -1163,7 +1164,7 @@ vigente</i> e a <i>cultura pessoal</i>! A solidão, o tédio e o
 isolamento! Mas isso é assunto pra outra hora.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/11/index.html
+  https://odetra.github.io/blog/p/post/11/index.html
  </link>
  <pubDate>
   Thu, 16 Apr 2026 20:46:10 -0300
@@ -1246,7 +1247,7 @@ bem. <s>Pelo menos na minha máquina</s>.</p>
 <a href="https://github.com/odetra/microtag">aqui</a>.</p>
  </description>
  <link>
-  https://odetra.github.io/p/post/12/index.html
+  https://odetra.github.io/blog/p/post/12/index.html
  </link>
  <pubDate>
   Sun, 19 Apr 2026 19:31:23 -0300
